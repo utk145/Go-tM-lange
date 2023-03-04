@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoûtMélange.com</title>
+    <!-- GoûtMélange.com (combining "goût" which means taste in French and "mélange" which means mixture) -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/components.css">
+
+    <!-- Animate on scroll https://github.com/michalsnik/aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/1x/savouring-delicious-food-face.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="./style/homepage.css">
+</head>
+
+<body>
+    <!-- Nav -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <!-- <a href="./index.html" class="logo"><img src="./images/logo.svg" alt="logo"/></a> -->
+                <a href="./index.html" class="logo">
+                    <h1 class="try">GoûtMélange</h1>
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav__bgOverlay "></div>
+                    <ul class="nav__list ">
+                        <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class="nav__link">HOME</a></li>
+                            <li><a href="./menu.html" class="nav__link">MENU</a></li>
+                            <li><a href="./about.html" class="nav__link">ABOUT</a></li>
+                            <li><a href="./contact.html" class="nav__link">CONTACT</a></li>
+                            <li><a href="./booking.html" class="btn primary-btn">Book Table</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__left" data-aos="fade-left">
+                    <div class="hero__left__wrapper">
+                        <h1 class="hero__heading">The flavor of tradition</h1>
+                        <p class="hero__info">We are a multi-cuisine restaurant offering a wide variety of food
+                            experience in both casual and fine dining environment.</p>
+                        <div class="button__wrapper">
+                            <a href="./menu.html" class="btn primary-btn">Explore Menu</a>
+                            <a href="./booking.html" class="btn">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right" data-aos="fade-right">
+                    <div class="hero__img__wrapper">
+                        <img src="./images/heroImg.png" alt="hero images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="storeInfo" data-aos="fade-up">
+        <div class="container">
+            <div class="storeInfo__wrapper">
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="./images/wall-clock-icon.svg" alt="clock icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        10 AM - 7 PM
+                    </h3>
+                    <p class="storeInfo__text">
+                        Opening Hour
+                    </p>
+                </div>
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="./images/phone-icon.svg" alt="phone-icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        +74333428493
+                    </h3>
+                    <p class="storeInfo__text">
+                        Call Now
+                    </p>
+                </div>
+                <div class="storeInfo__item">
+                    <div class="storeInfo__icon">
+                        <img src="./images/address-icon.svg" alt="location icon">
+                    </div>
+                    <h3 class="storeInfo__title">
+                        123 Maple Street Anytown, USA 12345
+                    </h3>
+                    <p class="storeInfo__text">
+                        Address
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="ourSpecials" data-aos="fade-up">
+        <div class="container">
+            <div class="ourSpl__wrapper">
+                <div class="ourSpl__right" data-aos="fade-right">
+                    <h2 class="ourSpecials__title">
+                        Our Specials
+                    </h2>
+                    <p class="ourSpecials__text">
+                        All of our food is prepared daily at our restaurants to ensure the highest quality, freshest
+                        meals are
+                        delivered to our customers
+                    </p>
+                    <a href="./booking.html" class="btn primary-btn">Book Table</a>
+                </div>
+                <div class="ourSpl__left">
+                    <div class="ourSpl__item">
+                        <div class="ourSpl__item__img">
+                            <img src="./images/food-3.png" alt="img">
+                        </div>
+                        <h2 class="ourSpl__item__title">Sweet Potato Fries Bowl</h2>
+                        <h3 class="ourSpl__item__price">$28</h3>
+                        <div class="ourSpl__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                        <p class="ourSpl__item__descr">Indulge in our Sweet Potato Fries Bowl - a delicious blend of
+                            crispy sweet potato fries, juicy grilled chicken, fresh avocado, crunchy red cabbage, and
+                            savory black beans, topped with a tangy chipotle aioli sauce. It's a perfect combination of
+                            textures and flavors that will leave you feeling satisfied and nourished. Whether you're
+                            looking for a quick lunch or a fulfilling dinner, this bowl is packed with nutrients and
+                            vitamins, making it the perfect healthy choice. Come and experience our delectable Sweet
+                            Potato Fries Bowl today!</p>
+                    </div>
+                    <div class="ourSpl__item">
+                        <div class="ourSpl__item__img">
+                            <img src="./images/food-1.png" alt="img">
+                        </div>
+                        <h2 class="ourSpl__item__title">Vegan Salad bowl</h2>
+                        <h3 class="ourSpl__item__price">$22</h3>
+                        <div class="ourSpl__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                        <p class="ourSpl__item__descr">Our Vegan Salad Bowl is a work of art that combines fresh
+                            ingredients and unique flavors. Featuring mixed greens, cherry tomatoes, cucumber, avocado,
+                            chickpeas, pickled red onions, and a zesty lemon vinaigrette, it's a must-try for anyone
+                            seeking a healthy and delicious meal. At our restaurant, we strive to provide the best
+                            dining experiences, and our Vegan Salad Bowl is no exception. Come and experience it today.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">Top Dishes</h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-1.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Vegan Salad Bowl
+                        </h3>
+                        <h3 class="dishGrid__item__price">$22</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-7.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Hot Green Bowl
+                        </h3>
+                        <h3 class="dishGrid__item__price">$18</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-2.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Vegan Pesto Zoodles
+                        </h3>
+                        <h3 class="dishGrid__item__price">$19.5</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="discount" data-aos="fade-left">
+        <div class="container">
+            <div class="discount__wrapper">
+                <div class="discount__images">
+                    <div class="discount__image1">
+                        <img src="./images/food-5.png" alt="img">
+                    </div>
+                    <div class="discount__image2">
+                        <img src="./images/food-4.png" alt="img">
+                    </div>
+                    <div class="discount__image3">
+                        <img src="./images/food-3.png" alt="img">
+                    </div>
+                </div>
+                <div class="discount__info">
+                    <h3 class="discount__text">20% OFF</h3>
+                    <h3 class="discount__title">
+                        Dishes<sup>*</sup> For Discount
+                    </h3>
+                    <h3 class="discount__price">
+                        <span class="discount__oldPrice">$60</span>
+                        <span class="discount__newPrice">$48</span>
+                    </h3>
+                    <div class="discount__stars"><img src="./images/3star.png" alt="star">
+                    </div>
+                    <a href="./booking.html" class="btn primary-btn">Book Table Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="eventsMedia" data-aos="fade-up">
+        <div class="container">
+            <div class="eventsMedia__wrapper">
+                <div class="eventsMedia__1">
+                    <img src="./images/eventsMedia1.png" alt="events">
+                    <a href="#" class="eventsMedia__1__playButton">
+                        <img src="./images/playIcon.svg" alt="play button">
+                    </a>
+                </div>
+                <div class="eventMedia__2">
+                    <img src="./images/eventsMedia2.png" alt="events">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="eventsInfo">
+        <div class="container">
+            <div class="eventsInfo__wrapper">
+                <div class="eventsInfo__left" data-aos="fade-left">
+                    <div class="eventsInfo__item">
+                        <div class="eventsInfo__item__img">
+                            <img src="./images/event-corporate.png" alt="eventsInfoImage">
+                        </div>
+                        <div class="eventsInfo__item__info">
+                            <h2 class="eventsInfo__item__title">Corporate Events</h2>
+                            <p class="eventsInfo__item__text">Transform your corporate event into a memorable experience
+                                with our expert planning and execution.</p>
+                        </div>
+                    </div>
+                    <div class="eventsInfo__item">
+                        <div class="eventsInfo__item__img">
+                            <img src="./images/event-weedings.png" alt="eventsInfoImage">
+                        </div>
+                        <div class="eventsInfo__item__info">
+                            <h2 class="eventsInfo__item__title">Weddings</h2>
+                            <p class="eventsInfo__item__text">Make your dream wedding a reality with our exquisite
+                                venue, impeccable service, and exceptional culinary offerings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventsInfo__right" data-aos="fade-right">
+                    <h2 class="eventsInfo__title">
+                        Host your event with us
+                    </h2>
+                    <p class="eventsInfo__text">When you choose to host your event with us, expect nothing less than
+                        exceptional hospitality and seamless planning, every step of the way</p>
+                    <a href="./contact.html" class="btn primary-btn">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="whyUs">
+        <div class="container">
+            <div class="whyUs__wrapper">
+                <div class="whyUs__left" data-aos="fade-up">
+                    <h2 class="whyUs__title">Why Choose Our Food</h2>
+                    <p class="whyUs__text">If you're looking for a dining experience that truly stands out, look no
+                        further than our food. Our culinary team is dedicated to using only the freshest,
+                        highest-quality ingredients to create dishes that are not only delicious but also visually
+                        stunning. We pride ourselves on our attention to detail and our commitment to creating unique
+                        and unforgettable flavors that will leave you wanting more. Whether you're a foodie looking for
+                        your next culinary adventure or simply someone who appreciates a great meal, our menu is sure to
+                        impress. So why choose our food? Because we believe that every meal should be an experience, and
+                        we're committed to making sure that your dining experience with us is nothing short of
+                        excellent.</p>
+                </div>
+                <div class="whyUs__right" data-aos="fade-down">
+                    <div class="whyUs__items__wrapper">
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon1.svg" alt="whyus">
+                            </div>
+                            <p class="whyUs__item__text">Quality Food</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon2.svg" alt="whyus">
+                            </div>
+                            <p class="whyUs__item__text">Classical Taste</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon3.svg" alt="whyus">
+                            </div>
+                            <p class="whyUs__item__text">Skilled Chef</p>
+                        </div>
+                        <div class="whyUs__item">
+                            <div class="whyUs__item__icon">
+                                <img src="./images/whyUs-icon4.svg" alt="whyus">
+                            </div>
+                            <p class="whyUs__item__text">Best Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="testimonial__wrapper" data-aos="fade-up">
+                <h2 class="testimonial__title">What Our Customers Say</h2>
+                <div class="testimonial__items__wrapper">
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="cust">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Samantha M.</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="3 star">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "I've been a regular at this restaurant for years and I can honestly say that the food
+                                is always outstanding. The flavors are unique and delicious, and the presentation is
+                                always visually stunning. I highly recommend trying the seafood risotto - it's my
+                                personal favorite!"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="cust">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">Mark T.</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="3 star">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "As someone with a gluten allergy, it can be tough to find a restaurant that caters to
+                                my needs. But this restaurant went above and beyond to make sure I had plenty of options
+                                to choose from. The staff was incredibly knowledgeable and accommodating, and the
+                                gluten-free pasta dish I had was absolutely delicious."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdpcmwlMjBhZnJpY2FufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="cust">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name"> Emily R.</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="3 star">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "I recently hosted a corporate event at this restaurant and I have to say, the entire
+                                experience was top-notch. From the attentive staff to the beautifully presented food,
+                                everything was perfect. My colleagues were raving about the salmon dish and the dessert
+                                was the perfect sweet ending to the evening."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="https://images.unsplash.com/photo-1575467678950-0c09aad418af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGFmcmljYW4lMjBhbWVyaWNhbiUyMHdvbWFuJTIwY291cGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="cust">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__name">David and Sarah W.</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="3 star">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "My partner and I went here for a special occasion and we were blown away by the quality
+                                of the food and service. The flavors were out of this world and each dish was
+                                beautifully plated. We also appreciated the sommelier's recommendation for a delicious
+                                bottle of wine to pair with our meal. We can't wait to come back!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="newsletter" data-aos="fade-up">
+        <div class="container">
+            <div class="newsletter__wrapper">
+                <div class="newsletter__info">
+                    <h3 class="newsletter__title">Join Newsletter</h3>
+                    <p class="newsletter__text">
+                        Stay up-to-date with our latest offers, events, and news by subscribing to GoûtMélange newsletter
+                    </p>
+                </div>
+                <div class="newsletter__form">
+                    <form action="">
+                        <label for="email">
+                            <input type="email" placeholder="Your Email Address">
+                        </label>
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col-1">
+                    <div class="footer__logo">
+                        <!-- <img src="./images/logo.svg" alt="logo"> -->
+                        <h1 class="try">GoûtMélange</h1>
+                    </div>
+                    <p class="footer__description">Discover a world of tantalizing flavors with us. Our expertly crafted
+                        multicuisine offerings will take your taste buds on an unforgettable adventure. Join us for a
+                        truly unforgettable dining experience.</p>
+                    <div class="footer__socials">
+                        <h4 class="footer__socials__title">Follow Our Journey</h4>
+                        <ol class="footer__socials__list">
+                            <li>
+                                <a href="https://github.com/utk145" title="Github: utk145">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="footer__col-2">
+                    <h3 class="footer__text__title">
+                        Learn More Here
+                    </h3>
+                    <ol class="footer__text">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./booking.html">Book a Table</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col-3">
+                    <h3 class="footer__text__title">
+                        Support
+                    </h3>
+                    <ol class="footer__text">
+                        <li><a href="./contact.html">Let us speak to you</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col-4">
+                    <h3 class="footer__text__title">
+                        Contact
+                    </h3>
+                    <ol class="footer__text">
+                        <li>
+                            <a href="./contact.html">+74333428493</a>
+                        </li>
+                        <li>
+                            <a href="#">leanr@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#">123 Maple Street
+                                Anytown, USA 12345</a>
+                        </li>
+                        <li class="design_credit"><a href="https://www.instagram.com/shaifarfan08/"
+                                target="_blank">Design Credits: @Shaif Arfan</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

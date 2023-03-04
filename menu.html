@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - GoûtMélange.com</title>
+    <!-- GoûtMélange.com (combining "goût" which means taste in French and "mélange" which means mixture) -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/menu.css">
+
+    <!-- Animate on scroll https://github.com/michalsnik/aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/1x/savouring-delicious-food-face.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <!-- Nav -->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <a href="./index.html" class="logo">
+                    <h1 class="try">GoûtMélange</h1>
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav__bgOverlay "></div>
+                    <ul class="nav__list ">
+                        <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class="nav__link">HOME</a></li>
+                            <li><a href="./menu.html" class="nav__link">MENU</a></li>
+                            <li><a href="./about.html" class="nav__link">ABOUT</a></li>
+                            <li><a href="./contact.html" class="nav__link">CONTACT</a></li>
+                            <li><a href="./booking.html" class="btn primary-btn">Book Table</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="page__title">
+        <div class="container">
+            <h2 class="page__title__text">Explore Our Menu</h2>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="ourSpecials" data-aos="fade-up">
+        <div class="container">
+            <h3 class="ourSpecials__title">Our Specials</h3>
+            <div class="ourSpecials__wrapper">
+                <div class="ourSpecials__item">
+                    <div class="ourSpecials__item__img">
+                        <img src="./images/food-3.png" alt="food img">
+                    </div>
+                    <div class="ourSpecials__item__info">
+                        <h3 class="ourSpecials__item__title">
+                            Sweet Potato Fries Bowl
+                        </h3>
+                        <h4 class="ourSpecials__item__price">$28</h4>
+                        <div class="ourSpecials__item__stars">
+                            <img src="./images/3star.png" alt="3 stars">
+                        </div>
+                    </div>
+                </div>
+                <div class="ourSpecials__item">
+                    <div class="ourSpecials__item__img">
+                        <img src="./images/food-1.png" alt="food img">
+                    </div>
+                    <div class="ourSpecials__item__info">
+                        <h3 class="ourSpecials__item__title">
+                            Vegan Salad bowl
+                        </h3>
+                        <h4 class="ourSpecials__item__price">$22</h4>
+                        <div class="ourSpecials__item__stars">
+                            <img src="./images/3star.png" alt="3 stars">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">Top Dishes</h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-1.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Vegan Salad Bowl
+                        </h3>
+                        <h3 class="dishGrid__item__price">$22</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-7.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Hot Green Bowl
+                        </h3>
+                        <h3 class="dishGrid__item__price">$18</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="./images/food-2.png" alt="food image">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Vegan Pesto Zoodles
+                        </h3>
+                        <h3 class="dishGrid__item__price">$19.5</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Breakfast
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.unsplash.com/photo-1608039829572-78524f79c4c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8RWdncyUyMEJlbmVkaWN0JTIwd2l0aCUyMFNtb2tlZCUyMFNhbG1vbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Eggs Benedict with Smoked Salmon
+                        </h3>
+                        <h3 class="dishGrid__item__price">$18</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UXVpY2hlJTIwTG9ycmFpbmUlMjB3aXRoJTIwTWl4ZWQlMjBHcmVlbnMlMjBTYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Quiche Lorraine with Mixed Greens Salad
+                        </h3>
+                        <h3 class="dishGrid__item__price">$16</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/15662061/pexels-photo-15662061.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Croque Madame with Fries
+                        </h3>
+                        <h3 class="dishGrid__item__price">$15</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/221063/pexels-photo-221063.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Belgian Waffles with Berries and Whipped Cream
+                        </h3>
+                        <h3 class="dishGrid__item__price">$14</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/6463268/pexels-photo-6463268.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Smoked Salmon Bagel with Cream Cheese and Capers
+                        </h3>
+                        <h3 class="dishGrid__item__price">$12</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/7936743/pexels-photo-7936743.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Avocado Toast with Poached Egg and Microgreens
+                        </h3>
+                        <h3 class="dishGrid__item__price">$10</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Lunch
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/2532439/pexels-photo-2532439.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Lobster Risotto
+                        </h3>
+                        <h3 class="dishGrid__item__price">$38</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/6488930/pexels-photo-6488930.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Black Truffle Pasta
+                        </h3>
+                        <h3 class="dishGrid__item__price">$32</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.unsplash.com/photo-1675718341348-65224936b742?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8QmVlZiUyMFdlbGxpbmd0b24lNUN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Beef Wellington
+                        </h3>
+                        <h3 class="dishGrid__item__price">$48</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/3768316/pexels-photo-3768316.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Pan-Seared Scallops with Saffron Risotto
+                        </h3>
+                        <h3 class="dishGrid__item__price">$42</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/6851932/pexels-photo-6851932.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Duck Breast with Sweet Potato Puree
+                        </h3>
+                        <h3 class="dishGrid__item__price">$39</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/5836618/pexels-photo-5836618.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Grilled Portobello Mushroom Sandwich
+                        </h3>
+                        <h3 class="dishGrid__item__price">$18</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/8352776/pexels-photo-8352776.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Mediterranean Grilled Sea Bass
+                        </h3>
+                        <h3 class="dishGrid__item__price">$36</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Dinner
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1080892544/photo/charcoal-grilled-french-lamb-chops-with-rosemary.jpg?s=612x612&w=0&k=20&c=JSYb4Kauw6fN-uPXL1yOl0IW3JUrsJ-FG22vjPOaMvo="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Rack of Lamb
+                        </h3>
+                        <h3 class="dishGrid__item__price">$45</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/1334127/pexels-photo-1334127.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Wagyu Beef Filet with Black Truffle Sauce
+                        </h3>
+                        <h3 class="dishGrid__item__price">$58</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1329104325/photo/rib-eye-steak-delicious.jpg?s=612x612&w=0&k=20&c=mMS84ksuuE6nRcqlqAjYe1qFP6Xt2wPFigyg1rh0B6c="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Grilled Lamb Chops with Mint Gremolata
+                        </h3>
+                        <h3 class="dishGrid__item__price">$48</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/951708686/photo/fried-chantarelle-onion-toasts.jpg?s=612x612&w=0&k=20&c=2yo4gtp0l8pypzUos5gWDuSeyobI6sf-C7124V3l6dc="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Wild Mushroom Tart with Smoked Gouda
+                        </h3>
+                        <h3 class="dishGrid__item__price">$24</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1212734628/photo/steak-frites-grade-a-grass-fed-angus-beef-traditional-classic-new-york-steakhouse-menu.jpg?s=612x612&w=0&k=20&c=oDLf_M8Dcw3LKKJbTpgnA6_I1jN9f8VBavzW0Hxij0w="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Grilled Wagyu Beef with Truffle Mashed Potatoes
+                        </h3>
+                        <h3 class="dishGrid__item__price">$65</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://images.pexels.com/photos/4294486/pexels-photo-4294486.jpeg?auto=compress&cs=tinysrgb&w=600"
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Grilled Portobello Mushroom Stack
+                        </h3>
+                        <h3 class="dishGrid__item__price">$26</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1246917550/photo/spaghetti-with-lobster.jpg?s=612x612&w=0&k=20&c=HmnrTcLvLiQ4-cXCZ55cuND-NZpfRR1r2OICb5MMAkI="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Lobster Linguine with Lemon Garlic Butter Sauce
+                        </h3>
+                        <h3 class="dishGrid__item__price">$58</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="dishGrid" data-aos="fade-up">
+        <div class="container">
+            <h2 class="dishGrid__title">
+                Desert
+            </h2>
+            <div class="dishGrid__wrapper">
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1210809981/photo/warm-chocolate-lava-cake-on-a-black-plate-with-a-cup-of-coffee-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=GMif67O5NtAw5rL5aBZVDLZUlEuVO3YXnKqFmhbNa68="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chocolate Lava Cake
+                        </h3>
+                        <h3 class="dishGrid__item__price">$15</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1061450296/photo/portion-of-tiramisu-dessert.jpg?s=612x612&w=0&k=20&c=JyWeXtC9k7a4pGPhJxmedRFiR2WWt6-iYmDFdP6CScc="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Tiramisu
+                        </h3>
+                        <h3 class="dishGrid__item__price">$12</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/155395306/photo/fancy-picture-of-a-cr%C3%A8me-brulee-standing-on-a-napkin.jpg?s=612x612&w=0&k=20&c=X6KpIQfr6IRW5uxt_5A7PzAOk1Nkmqh0fPmljniqYc8="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Crème Brûlée
+                        </h3>
+                        <h3 class="dishGrid__item__price">$14</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1225491381/photo/cheesecake-with-caramel-sauce.jpg?s=612x612&w=0&k=20&c=RhQ8vfvs_W2jJw7EBahIF-UImeBABrVNflM3whnUm_M="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            New York Cheesecake
+                        </h3>
+                        <h3 class="dishGrid__item__price">$10</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1284788262/photo/key-lime-pie.jpg?s=612x612&w=0&k=20&c=Z4MJm6Nt0wMcHUqQOEZB6U9mPW21JcMlcpqv9-thTeI="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Key Lime Pie
+                        </h3>
+                        <h3 class="dishGrid__item__price">$8</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/637816546/photo/jalebi-being-dipped-in-milk-by-a-lady.jpg?s=612x612&w=0&k=20&c=0V7mhAs0ciobZv_NwUVuN_Pqc-EA1sbMb7zVMFlGjeU="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                           Jalebi
+                        </h3>
+                        <h3 class="dishGrid__item__price">$12</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/485165015/photo/fruitcake-panforte.jpg?s=612x612&w=0&k=20&c=OJmSPGm4H83hW8jB-RdSgI6SpyvUXG0VbEro9Y9uwgA="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Chocolate Hazelnut Torte
+                        </h3>
+                        <h3 class="dishGrid__item__price">$12.99</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1337187507/photo/motichur-laddu-made-from-besan-special-festival-indain-sweets.jpg?s=612x612&w=0&k=20&c=H-eU5KaSZqmYUwOcUGhCJOMol5kh9mYQSGqHUV_FIk8="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            motichur laddu
+                        </h3>
+                        <h3 class="dishGrid__item__price">$12.50</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+                <div class="dishGrid__item">
+                    <div class="dishGrid__item__img">
+                        <img src="https://media.istockphoto.com/id/1339096099/photo/indian-dessert-sweet-food-gulab-jamun-in-a-traditional-metal-bowl.jpg?s=612x612&w=0&k=20&c=Ak6tVuOTNxpShiiL09lyoPXafT51a3zcqqAvyBKggYI="
+                            alt="food img">
+                    </div>
+                    <div class="dishGrid__item__info">
+                        <h3 class="dishGrid__item__title">
+                            Gulab Jamun
+                        </h3>
+                        <h3 class="dishGrid__item__price">$14</h3>
+                        <div class="dishGrid__item__stars">
+                            <img src="./images/3star.png" alt="3 star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col-1">
+                    <div class="footer__logo">
+                        <h1 class="try">GoûtMélange</h1>
+                    </div>
+                    <p class="footer__description">Discover a world of tantalizing flavors with us. Our expertly crafted
+                        multicuisine offerings will take your taste buds on an unforgettable adventure. Join us for a
+                        truly unforgettable dining experience.</p>
+                    <div class="footer__socials">
+                        <h4 class="footer__socials__title">Follow Our Journey</h4>
+                        <ol class="footer__socials__list">
+                            <li>
+                                <a href="https://github.com/utk145">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="footer__col-2">
+                    <h3 class="footer__text__title">
+                        Learn More Here
+                    </h3>
+                    <ol class="footer__text">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./booking.html">Book a Table</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col-3">
+                    <h3 class="footer__text__title">
+                        Support
+                    </h3>
+                    <ol class="footer__text">
+                        <li><a href="./contact.html">Let us speak to you</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col-4">
+                    <h3 class="footer__text__title">
+                        Contact
+                    </h3>
+                    <ol class="footer__text">
+                        <li>
+                            <a href="./contact.html">+74333428493</a>
+                        </li>
+                        <li>
+                            <a href="#">leanr@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#">123 Maple Street
+                                Anytown, USA 12345</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
