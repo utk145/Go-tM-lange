@@ -20,4 +20,4 @@ To view the website, simply download the project files and open the index.html f
 
 The website features stunning animations using the AOS library. These animations add a dynamic and engaging element to the user experience, making the website more fun to use and explore.
 
-## Link : [Let us Serve You](utproject-goutmelange.netlify.app)
+## Link : [Let us Serve You](https://utproject-goutmelange.netlify.app/)
